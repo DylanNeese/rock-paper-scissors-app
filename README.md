@@ -14,6 +14,9 @@ Model: GameModel defines the game data structure. Including User and CPU choice 
 Persistence Layer: Shared Preferences are used  in order to save and load the state of game locally as a JSON string. 
 
 
+# GameModel Class Diagram
+
+```mermaid
 classDiagram
   class GameModel {
     - String userChoice
@@ -22,9 +25,10 @@ classDiagram
     - int userScore
     - int cpuScore
     + GameModel() 
-    + Map<String, dynamic> toJson()
-    + static GameModel fromJson(Map<String, dynamic> json)
+    + toJson()
+    + fromJson()
   }
+```
 
 
 Instructions
