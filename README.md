@@ -3,7 +3,7 @@
 CS 386 Final Project
 Dylan Neese
 
-Instruction:
+Introduction:
 	The Flutter app I made is a simple Rock, Paper, Scissors game in which you play versus a computer. To determine a winner, you play best 3 out of 5 games. The players make their choice by selecting one of the 3 options and the CPU selects a random choice. The app keeps track of the score and displays the results. It also shaves the progress of the game using shared preferences.
 	The target user of the game is anyone who is looking for something to waste time with that is fun. It’s a simple flutter program that can guide beginners in Flutter learn about UI design, management and persistent storage.
 
