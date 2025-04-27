@@ -13,9 +13,7 @@ UI layer: GameScreen is the main widget that builds the user interface
 Model: GameModel defines the game data structure. Including User and CPU choice and results + scores. 
 Persistence Layer: Shared Preferences are used  in order to save and load the state of game locally as a JSON string. 
 
-# GameModel Class Diagram
 
-```mermaid
 classDiagram
   class GameModel {
     - String userChoice
@@ -24,11 +22,9 @@ classDiagram
     - int userScore
     - int cpuScore
     + GameModel() 
-    + toJson()
-    + fromJson()
+    + Map<String, dynamic> toJson()
+    + static GameModel fromJson(Map<String, dynamic> json)
   }
-```
-
 
 
 Instructions
