@@ -43,4 +43,4 @@ Next Steps
 If I had more time on this, I would have figures out how to create a two-player game where I could play with two different people on two devices. In addition to that adding difficulties to the game would be cool to have made too. Match history and overall records would be nice to do as well. I would have liked to explore more into the interface and how to make it look more professional instead of like a little project. 
 
 
-![image](https://github.com/user-attachments/assets/18d7582e-b444-4e58-8d3b-035dd4e25d0d)
+
