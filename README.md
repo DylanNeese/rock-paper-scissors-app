@@ -14,7 +14,6 @@ Model: GameModel defines the game data structure. Including User and CPU choice 
 Persistence Layer: Shared Preferences are used  in order to save and load the state of game locally as a JSON string. 
 # GameModel Class Diagram
 
-```mermaid
 classDiagram
   class GameModel {
     - String userChoice
@@ -22,11 +21,11 @@ classDiagram
     - String result
     - int userScore
     - int cpuScore
-    + GameModel({userChoice, computerChoice, result, userScore, cpuScore})
+    + GameModel() 
     + Map<String, dynamic> toJson()
     + static GameModel fromJson(Map<String, dynamic> json)
   }
-```
+
 
 Instructions
 First you need install flutter and set up an emulator. Your need to copy this project and put them in a flutter project folder to run. You will need to make sure you have VS Code and run the project through that. To get the app started you need to press the play button or flutter run in the terminal. 
